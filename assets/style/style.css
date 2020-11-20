@@ -1,0 +1,103 @@
+
+body{
+  font-family: 'Baloo 2', cursive;
+}
+
+.header{      
+    border-radius: 5px;
+}
+
+
+.header h2{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.modal button{
+    background-color: #87ceeb;
+    border: none;
+    color: black;
+}
+
+.weather {    
+  padding: 0;
+}
+
+.welcome {
+    text-align: center;
+    padding-top: 10px;
+    line-height: 13px;
+    width: 100%;    
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+.weatherWidget{
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.wrapper {
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.buttonControls{        
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.7);
+}
+.buttonControls button{    
+  border: none;
+  background-color: Transparent;
+}
+
+#dayOfWeek{    
+    font-weight: 700;
+}
+
+#pageBreak{
+    height: 80px;
+}
+
+.bottomMenu #left {
+    position: relative;
+    left: 10%;
+}
+
+.bottomMenu #left img {
+    float: left;
+}
+
+.bottomMenu #center {
+    margin: 0 auto;
+}
+
+.bottomMenu #center img {
+    display: block;
+    margin: 0 auto;
+}
+
+.bottomMenu #right {
+    position: relative;
+    right: 10%;
+}
+
+.bottomMenu #right img {
+    float: right;
+}
+
+@media screen and (min-width: 780px) {
+    .wrapper {
+        width: 80%;
+    }
+    .searchBar{
+        width: 60%;
+    }
+}
+
+.card {
+    border: none !important;
+}

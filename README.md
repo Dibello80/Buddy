@@ -1,1 +1,1 @@
-# Buddy
+# my-new-proj1
